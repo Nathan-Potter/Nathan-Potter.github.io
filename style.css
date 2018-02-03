@@ -1,8 +1,8 @@
 body {
     background: url("LakesBackground.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    height: 100%;
     font-size: 2em;
 }
 
