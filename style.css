@@ -1,15 +1,12 @@
 html, body {
     height: 100%;
     width: 100%;
-    padding: 0;
 }
 header.content {
     background: url("LakesBackground.jpg") fixed;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     height: 100%;
-    padding-top: 50px;
 }
 
 .container {
