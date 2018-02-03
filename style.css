@@ -4,7 +4,7 @@ html, body {
     padding: 0;
 }
 header.content {
-    background: url("LakesBackground.jpg");
+    background: url("LakesBackground.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
