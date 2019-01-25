@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("HeroImage2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: white;
+}
+
+.hero-text h1 {
+  font-family: "Major Mono Display", monospace;
+  font-size: 5vw;
+}
+
+.hero-text p {
+  margin-top: 1vh;
+  font-size: 2.5vw;
+  font-family: "Staatliches", cursive;
+}
+
+.hero-text {
+  padding: 20vh 0 0 10vw;
+}
+
+.text-splitter {
+  border: 1px solid white;
+  width: 50vw;
+  margin: 0;
+}
