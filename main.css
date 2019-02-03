@@ -6,6 +6,10 @@ body {
   font-size: 16px;
 }
 
+p {
+  font-family: "Karla", sans-serif;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(74, 76, 93, 0.5)),
     url("HeroImage2.jpg");
@@ -95,13 +99,25 @@ body {
   margin: 15px 0 15px 15px;
 }
 
+.about-me {
+  background-color: #4a4c5d;
+  padding: 25px 0;
+  color: white;
+}
+
+.about-me-title {
+  background-color: #4a4c5d;
+  color: white;
+}
+
+.image-holder {
+  text-align: center;
+}
+
 #profile-image {
   border-radius: 100%;
   width: 200px;
   height: auto;
-
-  float: left;
-  margin: 0 15px 15px 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -120,5 +136,17 @@ body {
 
   .footer {
     text-align: center;
+  }
+
+  .my-info {
+    margin: 25px 0 0 0;
+  }
+
+  .footer-nav {
+    margin: 25px 0 25px 0;
+  }
+
+  .footer-nav ul li {
+    margin: 25px 0 25px 0;
   }
 }
