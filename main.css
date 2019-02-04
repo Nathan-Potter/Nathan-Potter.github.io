@@ -44,6 +44,10 @@ p {
   width: 100%;
 }
 
+.about-me-text p {
+  font-size: 1.5em;
+}
+
 .proj-desc-bar {
   width: 100%;
   background-color: white;
@@ -112,6 +116,7 @@ p {
 
 .image-holder {
   text-align: center;
+  vertical-align: middle;
 }
 
 #profile-image {
@@ -121,11 +126,6 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  .hero-text {
-    text-align: center;
-    padding: 20vh 5vh 0 5vh;
-  }
-
   .hero-text h1 {
     font-size: 4em;
   }
@@ -153,5 +153,38 @@ p {
   .about-me-text {
     text-align: center;
     margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-text {
+    text-align: center;
+    padding: 20vh 5vh 0 5vh;
+  }
+  .about-me-text {
+    text-align: center;
+    margin: 25px 0 10px 0;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 50px;
+  }
+
+  .footer-nav {
+    margin: 25px 25px 0 0;
+  }
+
+  .footer h2 {
+    font-size: 2em;
+  }
+
+  .my-info {
+    margin: 25px 0 0 0;
+  }
+
+  .footer-nav ul li {
+    margin: 25px 0 25px 0;
   }
 }
